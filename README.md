@@ -1,2 +1,2 @@
-# Group_30_QA
+# Group_30_QA_Git
 QA_Course_by_Vadim_Ksendzov
