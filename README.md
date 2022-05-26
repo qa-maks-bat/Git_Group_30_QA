@@ -1,0 +1,2 @@
+# Group_30_QA
+QA_Course_by_Vadim_Ksendzov
