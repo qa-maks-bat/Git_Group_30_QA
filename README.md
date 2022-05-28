@@ -1,6 +1,4 @@
-# TXT
-
-GIT: This is 2nd homework on QA Course by Vadim Ksendzov
+# GIT homework on QA Course by Vadim Ksendzov
 
 # Part 1: TXT
 
