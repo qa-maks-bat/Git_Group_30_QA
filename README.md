@@ -1,6 +1,6 @@
 QA Course by Vadim Ksendzov
 
-GIT HOMEWORK 1
+GIT homework 1
 
 # TXT
 
