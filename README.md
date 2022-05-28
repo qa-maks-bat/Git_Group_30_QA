@@ -1,6 +1,8 @@
-# GIT homework on QA Course by Vadim Ksendzov
+QA Course by Vadim Ksendzov
 
-# Part 1: TXT
+GIT HOMEWORK 1
+
+# TXT
 
  1. Создать внешний репозиторий c названием TXT.
  2. Клонировать репозиторий TXT на локальный компьютер.
