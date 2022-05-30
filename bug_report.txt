@@ -1,1 +1,20 @@
+Title: Widget Icon: "widget size values", widget height and width set to "0"
 
+Bug_id: 102
+
+Severity: Minor
+Priority: Low
+Environment: Redmi Note 8 M1908C3JG ; Android 10
+		  
+Precondition: Open the App
+
+STR:
+1) click button “Add widget”;
+2) hide the application;
+3) look at the widget icon;
+
+AR: Parameters "Height"(H) and "Width"(W) are set to "0"
+
+ER: Parameters "Height" (H) and "Width" (W) are in values in relation to the screen resolution settings that the user has set
+
+Attachments: https://drive.google.com/file/d/1vQ_dc2Dkg2FlycsTAk9e5Qx1jw9_6N3T/view?usp=sharing
