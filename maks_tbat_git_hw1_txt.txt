@@ -1,0 +1,85 @@
+QA Course by Vadim Ksendzov 
+	 
+Group_30_QA
+
+GIT homework 1 (TXT)
+	 
+Invironment: Windows 10, Notepad++
+
+
+Telegram: @maks_tbat 
+
+Name: Maksim Batrakou
+	 
+Location: Minsk, Belarus
+
+
+
+#!/bin/bash
+	 
+1. Создать внешний репозиторий c названием TXT:
+	Done
+	
+2. Клонировать репозиторий TXT на локальный компьютер:
+	$ cd ~/Group_30_QA/GIT
+	$ git clone https://github.com/qa-maks-bat/TXT.git
+	 
+3. Внутри локального TXT создать файл “new.txt”:
+	$ cd TXT ; touch new.txt
+	 
+4. Добавить файл под гит:
+	$ git status
+	$ git add new.txt
+	 
+5. Закоммитить файл:
+	$ git status
+	$ git commit -m "I added an empty file: new.txt"
+	 
+6. Отправить файл на внешний GitHub репозиторий:
+	$ git status
+	$ git push	
+	$ git status
+	 	 
+7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT:
+	$ echo -e "QA Course by Vadim Ksendzov\nGroup_30_QA\nGIT homework 1 (TXT)\nInvironment: Windows 10, Notepad++\n\nTelegram: @maks_tbat\nLocation: Minsk, Belarus\n\n\nAbout me:\n\nName, Surname: Maksim Batrakou\nAge: 41 (07.02.1981)\nNumber of pets: 1 (one)\nFuture expected salary: 2000$ a month" > new.txt
+	 
+8. Отправить изменения на внешний репозиторий.:
+	$ git status
+	$ git add new.txt
+	$ git status
+	$ git commit -m "I added the information about myself into the file: new.txt"
+	$ git status
+	$ git push
+	$ git status
+	
+9. Создать файл preferences.txt:
+	touch preferences.txt
+	 
+10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, страна, которую хотели бы посетить) в формате TXT:
+	$ echo -e "QA Course by Vadim Ksendzov\nGroup_30_QA\nGIT homework 1 (TXT)\nInvironment: Windows 10, Notepad++\n\nTelegram: @maks_tbat\nLocation: Minsk, Belarus\n\n\nAbout my preferences:\n\nFavourite movie: Transformers\nFavourite series: Stranger Things\nFavourite food: Pan-fried potatoes\nFavourite season: Summer\nCountry that would like to visit: Poland" > preferences.txt
+	 
+11. Создать файл sklls.txt, добавить информацию о скиллах, которые будут изучены на курсе в формате TXT:
+	$ touch sklls.txt ; echo -e "QA Course by Vadim Ksendzov\nGroup_30_QA\nGIT homework 1 (TXT)\nInvironment: Windows 10, Notepad++\n\nTelegram: @maks_tbat\nLocation: Minsk, Belarus\n\n\nAbout my skills that will get on the QA Course by Vadim Ksendzov:\n\n1.Базовая теория (Что такое тестирование, багрепорты, документация, виды, методы, направления тестирования и т.п.) SDLC, STLC.\n2. Что такое клиент-серверная архитектура.\n3. HTTP Методы запросов на сервер.\n4. Коды ответов HTTP сервера.\n5. Структуры HTTP запросов и ответов.\n6. Что такое JSON, XML. Их структура.\n7. Тестирование API через Postman (JS, автотесты API).\n8. Снятие и чтение логов c внешнего сервера.\n9. Снифинг http web трафика через Charles и Fiddler.\n10. Dev Tools веб браузеров (Google Chrome, FireFox).\n11. VPN. (Как работает, зачем нужен, как использовать, варианты инструментов).\n12. Мобильное тестирование.\n13. Особенность iOS, Android, гайдлайны.\n14. Сборка iOS приложений на XCode. (У кого нет Mac компьютера, просто посмотрят).\n15. Сборка Android приложений на Android Studio.\n16. ADB (управление андройд девайсами).\n17. Настройка прокси и vpn на iOS и Android.\n18. Перехват (сниффинг) мобильного трафика через Charles и Fiddler на iOS и Android.\n19. Командная строка (terminal) Linux (копирование, создание, просмотр, перемещение файлов на серверах без графического интерфейса).\n20. Основы bash скриптинг, автоматизация рутинных задач на сервере.\n21. Доступ к удалённым серверам.\n22. Основы SQL (Create, Delete, Drop, Insert Into, Select, From, Where, Join).\n23. База данных Postgres (установка, настройка и использование).\n24. Нереляционная база данных Redis (установка, настройка и использование).\n25. Нагрузочное тестирование в Jmeter.\n26. Методология разработки Scrum.\n27. Python. (Изучение основ. Создание клиент серверного приложения)." > sklls.txt
+		 
+12. Сделать коммит в одну строку:
+	$ git status ; git add preferences.txt sklls.txt ; git status ; git commit -m "I added two files with information about my preferences and my future skills that I will be able to get on the course: preferences.txt and sklls.txt" ; git status
+	
+13. Отправить сразу 2 файла на внешний репозиторий:
+	$ git push
+	 
+14. На веб интерфейсе создать файл bug_report.txt:
+	GitHub (Add file - Create new file - Fill in "Name your file")	
+	 	 
+15. Сделать Commit changes (сохранить) изменения на веб интерфейсе:
+	GitHub (Write a commit massage and press "Commit new file")
+	 
+16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT:
+	GitHub (Go to file "bug_report.txt" - Edit this file - Fill in the file)
+
+17. Сделать Commit changes (сохранить) изменения на веб интерфейсе:
+	GitHub (Press "Commit changes")
+	 
+18. Синхронизировать внешний и локальный репозиторий TXT:
+	$ git pull
+	 
+END
